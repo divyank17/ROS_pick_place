@@ -1,0 +1,10 @@
+/home/iamgroot/pick_and_place_ws/build/pick_and_place/CMakeFiles/uninstall.dir
+/home/iamgroot/pick_and_place_ws/build/pick_and_place/CMakeFiles/pick_and_place_uninstall.dir
+/home/iamgroot/pick_and_place_ws/build/pick_and_place/CMakeFiles/pick_and_place_node.dir
+/home/iamgroot/pick_and_place_ws/build/pick_and_place/CMakeFiles/test.dir
+/home/iamgroot/pick_and_place_ws/build/pick_and_place/CMakeFiles/edit_cache.dir
+/home/iamgroot/pick_and_place_ws/build/pick_and_place/CMakeFiles/rebuild_cache.dir
+/home/iamgroot/pick_and_place_ws/build/pick_and_place/CMakeFiles/list_install_components.dir
+/home/iamgroot/pick_and_place_ws/build/pick_and_place/CMakeFiles/install.dir
+/home/iamgroot/pick_and_place_ws/build/pick_and_place/CMakeFiles/install/local.dir
+/home/iamgroot/pick_and_place_ws/build/pick_and_place/CMakeFiles/install/strip.dir
