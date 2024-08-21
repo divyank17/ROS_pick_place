@@ -1,0 +1,147 @@
+[0.000000] (-) TimerEvent: {}
+[0.000149] (pick_and_place) JobQueued: {'identifier': 'pick_and_place', 'dependencies': OrderedDict()}
+[0.000171] (pick_and_place) JobStarted: {'identifier': 'pick_and_place'}
+[0.005722] (pick_and_place) JobProgress: {'identifier': 'pick_and_place', 'progress': 'cmake'}
+[0.005941] (pick_and_place) Command: {'cmd': ['/usr/bin/cmake', '/home/iamgroot/pick_and_place_ws/src/pick_and_place', '-DCMAKE_INSTALL_PREFIX=/home/iamgroot/pick_and_place_ws/install/pick_and_place'], 'cwd': '/home/iamgroot/pick_and_place_ws/build/pick_and_place', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'iamgroot'), ('ROS_PACKAGE_PATH', '/home/iamgroot/pick_and_place_ws/install/pick_and_place/share'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/iamgroot'), ('OLDPWD', '/home/iamgroot/pick_and_place_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2698'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/iamgroot/pick_and_place_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'iamgroot'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/iamgroot/pick_and_place_ws/install/pick_and_place/lib/x86_64-linux-gnu/pkgconfig:/home/iamgroot/pick_and_place_ws/install/pick_and_place/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'iamgroot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/iamgroot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/iamgroot:@/tmp/.ICE-unix/2674,unix/iamgroot:/tmp/.ICE-unix/2674'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/67d4d8f5_c649_471c_8a13_bfca6d5bfa40'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/iamgroot/pick_and_place_ws/install/pick_and_place:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/iamgroot/pick_and_place_ws/build/pick_and_place'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/iamgroot/pick_and_place_ws/install/pick_and_place:/opt/ros/humble')]), 'shell': False}
+[0.044632] (pick_and_place) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.085591] (pick_and_place) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.090392] (pick_and_place) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099261] (-) TimerEvent: {}
+[0.136155] (pick_and_place) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.142176] (pick_and_place) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.142352] (pick_and_place) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.142710] (pick_and_place) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.144892] (pick_and_place) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199016] (pick_and_place) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.199323] (-) TimerEvent: {}
+[0.205364] (pick_and_place) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.205614] (pick_and_place) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.205934] (pick_and_place) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.207687] (pick_and_place) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299416] (-) TimerEvent: {}
+[0.330713] (pick_and_place) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.394668] (pick_and_place) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.399481] (-) TimerEvent: {}
+[0.425034] (pick_and_place) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.428334] (pick_and_place) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.434063] (pick_and_place) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.442501] (pick_and_place) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.453921] (pick_and_place) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.485021] (pick_and_place) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.486673] (pick_and_place) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.499548] (-) TimerEvent: {}
+[0.542674] (pick_and_place) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.561584] (pick_and_place) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.588690] (pick_and_place) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.594279] (pick_and_place) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.599616] (-) TimerEvent: {}
+[0.642994] (pick_and_place) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.643519] (pick_and_place) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.697002] (pick_and_place) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.698215] (pick_and_place) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.699682] (-) TimerEvent: {}
+[0.738755] (pick_and_place) StdoutLine: {'line': b'-- Found moveit_ros_planning_interface: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)\n'}
+[0.754006] (pick_and_place) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread \n'}
+[0.799775] (-) TimerEvent: {}
+[0.894343] (pick_and_place) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[0.899840] (-) TimerEvent: {}
+[0.903526] (pick_and_place) StdoutLine: {'line': b'-- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[0.915490] (pick_and_place) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[0.934486] (pick_and_place) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem \n'}
+[0.990078] (pick_and_place) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[0.999912] (-) TimerEvent: {}
+[1.015259] (pick_and_place) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.015372] (pick_and_place) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.100002] (-) TimerEvent: {}
+[1.120679] (pick_and_place) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono \n'}
+[1.145906] (pick_and_place) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options \n'}
+[1.163625] (pick_and_place) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread \n'}
+[1.200078] (-) TimerEvent: {}
+[1.239374] (pick_and_place) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.258100] (pick_and_place) StdoutLine: {'line': b'-- Generating done\n'}
+[1.259786] (pick_and_place) StdoutLine: {'line': b'-- Build files have been written to: /home/iamgroot/pick_and_place_ws/build/pick_and_place\n'}
+[1.268607] (pick_and_place) CommandEnded: {'returncode': 0}
+[1.269097] (pick_and_place) JobProgress: {'identifier': 'pick_and_place', 'progress': 'build'}
+[1.270052] (pick_and_place) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/iamgroot/pick_and_place_ws/build/pick_and_place', '--', '-j12', '-l12'], 'cwd': '/home/iamgroot/pick_and_place_ws/build/pick_and_place', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'iamgroot'), ('ROS_PACKAGE_PATH', '/home/iamgroot/pick_and_place_ws/install/pick_and_place/share'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/iamgroot'), ('OLDPWD', '/home/iamgroot/pick_and_place_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2698'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/iamgroot/pick_and_place_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'iamgroot'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/iamgroot/pick_and_place_ws/install/pick_and_place/lib/x86_64-linux-gnu/pkgconfig:/home/iamgroot/pick_and_place_ws/install/pick_and_place/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'iamgroot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/iamgroot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/iamgroot:@/tmp/.ICE-unix/2674,unix/iamgroot:/tmp/.ICE-unix/2674'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/67d4d8f5_c649_471c_8a13_bfca6d5bfa40'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/iamgroot/pick_and_place_ws/install/pick_and_place:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/iamgroot/pick_and_place_ws/build/pick_and_place'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/iamgroot/pick_and_place_ws/install/pick_and_place:/opt/ros/humble')]), 'shell': False}
+[1.300165] (-) TimerEvent: {}
+[1.303685] (pick_and_place) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pick_and_place_node.dir/src/pick_and_place.cpp.o\x1b[0m\n'}
+[1.400250] (-) TimerEvent: {}
+[1.500505] (-) TimerEvent: {}
+[1.600703] (-) TimerEvent: {}
+[1.700901] (-) TimerEvent: {}
+[1.801128] (-) TimerEvent: {}
+[1.901349] (-) TimerEvent: {}
+[2.001683] (-) TimerEvent: {}
+[2.101883] (-) TimerEvent: {}
+[2.202091] (-) TimerEvent: {}
+[2.302295] (-) TimerEvent: {}
+[2.402556] (-) TimerEvent: {}
+[2.502755] (-) TimerEvent: {}
+[2.602979] (-) TimerEvent: {}
+[2.703194] (-) TimerEvent: {}
+[2.803401] (-) TimerEvent: {}
+[2.903639] (-) TimerEvent: {}
+[3.003874] (-) TimerEvent: {}
+[3.104072] (-) TimerEvent: {}
+[3.204333] (-) TimerEvent: {}
+[3.304607] (-) TimerEvent: {}
+[3.404846] (-) TimerEvent: {}
+[3.505069] (-) TimerEvent: {}
+[3.605309] (-) TimerEvent: {}
+[3.705578] (-) TimerEvent: {}
+[3.805854] (-) TimerEvent: {}
+[3.906138] (-) TimerEvent: {}
+[4.006373] (-) TimerEvent: {}
+[4.106630] (-) TimerEvent: {}
+[4.206869] (-) TimerEvent: {}
+[4.307116] (-) TimerEvent: {}
+[4.407364] (-) TimerEvent: {}
+[4.507645] (-) TimerEvent: {}
+[4.607883] (-) TimerEvent: {}
+[4.708124] (-) TimerEvent: {}
+[4.808357] (-) TimerEvent: {}
+[4.908648] (-) TimerEvent: {}
+[5.008888] (-) TimerEvent: {}
+[5.109147] (-) TimerEvent: {}
+[5.209411] (-) TimerEvent: {}
+[5.309650] (-) TimerEvent: {}
+[5.409858] (-) TimerEvent: {}
+[5.510110] (-) TimerEvent: {}
+[5.610312] (-) TimerEvent: {}
+[5.710570] (-) TimerEvent: {}
+[5.810813] (-) TimerEvent: {}
+[5.911055] (-) TimerEvent: {}
+[6.011321] (-) TimerEvent: {}
+[6.111574] (-) TimerEvent: {}
+[6.211823] (-) TimerEvent: {}
+[6.312073] (-) TimerEvent: {}
+[6.412311] (-) TimerEvent: {}
+[6.512545] (-) TimerEvent: {}
+[6.529265] (pick_and_place) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pick_and_place_node\x1b[0m\n'}
+[6.612635] (-) TimerEvent: {}
+[6.712848] (-) TimerEvent: {}
+[6.732715] (pick_and_place) StdoutLine: {'line': b'[100%] Built target pick_and_place_node\n'}
+[6.739405] (pick_and_place) CommandEnded: {'returncode': 0}
+[6.755161] (pick_and_place) JobProgress: {'identifier': 'pick_and_place', 'progress': 'install'}
+[6.761063] (pick_and_place) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/iamgroot/pick_and_place_ws/build/pick_and_place'], 'cwd': '/home/iamgroot/pick_and_place_ws/build/pick_and_place', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'iamgroot'), ('ROS_PACKAGE_PATH', '/home/iamgroot/pick_and_place_ws/install/pick_and_place/share'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/iamgroot'), ('OLDPWD', '/home/iamgroot/pick_and_place_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2698'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/iamgroot/pick_and_place_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'iamgroot'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/iamgroot/pick_and_place_ws/install/pick_and_place/lib/x86_64-linux-gnu/pkgconfig:/home/iamgroot/pick_and_place_ws/install/pick_and_place/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'iamgroot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/iamgroot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/iamgroot:@/tmp/.ICE-unix/2674,unix/iamgroot:/tmp/.ICE-unix/2674'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/67d4d8f5_c649_471c_8a13_bfca6d5bfa40'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/iamgroot/pick_and_place_ws/install/pick_and_place:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/iamgroot/pick_and_place_ws/build/pick_and_place'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/iamgroot/pick_and_place_ws/install/pick_and_place:/opt/ros/humble')]), 'shell': False}
+[6.766292] (pick_and_place) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.766443] (pick_and_place) StdoutLine: {'line': b'-- Installing: /home/iamgroot/pick_and_place_ws/install/pick_and_place/lib/pick_and_place/pick_and_place_node\n'}
+[6.766767] (pick_and_place) StdoutLine: {'line': b'-- Set runtime path of "/home/iamgroot/pick_and_place_ws/install/pick_and_place/lib/pick_and_place/pick_and_place_node" to ""\n'}
+[6.766972] (pick_and_place) StdoutLine: {'line': b'-- Installing: /home/iamgroot/pick_and_place_ws/install/pick_and_place/share/ament_index/resource_index/package_run_dependencies/pick_and_place\n'}
+[6.767076] (pick_and_place) StdoutLine: {'line': b'-- Installing: /home/iamgroot/pick_and_place_ws/install/pick_and_place/share/ament_index/resource_index/parent_prefix_path/pick_and_place\n'}
+[6.767159] (pick_and_place) StdoutLine: {'line': b'-- Installing: /home/iamgroot/pick_and_place_ws/install/pick_and_place/share/pick_and_place/environment/ament_prefix_path.sh\n'}
+[6.767204] (pick_and_place) StdoutLine: {'line': b'-- Installing: /home/iamgroot/pick_and_place_ws/install/pick_and_place/share/pick_and_place/environment/ament_prefix_path.dsv\n'}
+[6.767266] (pick_and_place) StdoutLine: {'line': b'-- Installing: /home/iamgroot/pick_and_place_ws/install/pick_and_place/share/pick_and_place/environment/path.sh\n'}
+[6.767324] (pick_and_place) StdoutLine: {'line': b'-- Installing: /home/iamgroot/pick_and_place_ws/install/pick_and_place/share/pick_and_place/environment/path.dsv\n'}
+[6.767439] (pick_and_place) StdoutLine: {'line': b'-- Installing: /home/iamgroot/pick_and_place_ws/install/pick_and_place/share/pick_and_place/local_setup.bash\n'}
+[6.767523] (pick_and_place) StdoutLine: {'line': b'-- Installing: /home/iamgroot/pick_and_place_ws/install/pick_and_place/share/pick_and_place/local_setup.sh\n'}
+[6.767601] (pick_and_place) StdoutLine: {'line': b'-- Installing: /home/iamgroot/pick_and_place_ws/install/pick_and_place/share/pick_and_place/local_setup.zsh\n'}
+[6.767684] (pick_and_place) StdoutLine: {'line': b'-- Installing: /home/iamgroot/pick_and_place_ws/install/pick_and_place/share/pick_and_place/local_setup.dsv\n'}
+[6.767766] (pick_and_place) StdoutLine: {'line': b'-- Installing: /home/iamgroot/pick_and_place_ws/install/pick_and_place/share/pick_and_place/package.dsv\n'}
+[6.767871] (pick_and_place) StdoutLine: {'line': b'-- Installing: /home/iamgroot/pick_and_place_ws/install/pick_and_place/share/ament_index/resource_index/packages/pick_and_place\n'}
+[6.767965] (pick_and_place) StdoutLine: {'line': b'-- Installing: /home/iamgroot/pick_and_place_ws/install/pick_and_place/share/pick_and_place/cmake/pick_and_placeConfig.cmake\n'}
+[6.768026] (pick_and_place) StdoutLine: {'line': b'-- Installing: /home/iamgroot/pick_and_place_ws/install/pick_and_place/share/pick_and_place/cmake/pick_and_placeConfig-version.cmake\n'}
+[6.768100] (pick_and_place) StdoutLine: {'line': b'-- Installing: /home/iamgroot/pick_and_place_ws/install/pick_and_place/share/pick_and_place/package.xml\n'}
+[6.769240] (pick_and_place) CommandEnded: {'returncode': 0}
+[6.796749] (pick_and_place) JobEnded: {'identifier': 'pick_and_place', 'rc': 0}
+[6.797173] (-) EventReactorShutdown: {}
