@@ -31,10 +31,6 @@ Install MoveIt by following the [MoveIt Installation Instructions](https://movei
 
 ### 3. Create and Set Up the ROS 2 Workspace
 
-Open a terminal and run the following commands:
 
-```bash
-mkdir -p ~/pick_and_place_ws/src
-cd ~/pick_and_place_ws/src
-git clone https://github.com/yourusername/pick_and_place.git
-cd ~/pick_and_place_ws
+
+
